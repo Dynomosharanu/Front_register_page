@@ -1,0 +1,101 @@
+
+@keyframes h1
+ {
+    from{
+        transform: translateX(-150px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+h1{
+    animation: tansform;
+    
+}
+label{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     display: flex;
+     font-weight: bold;
+     text-align: left;
+     padding-top: 2px;
+     
+}
+button{
+    margin-top: 50px;
+    background-color: var(---);
+    height: 25px;
+    padding: auto;
+    border: 2px  solid;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: solid;
+    background-color:rgb(227, 171, 227);
+    border-color: white;
+    font-size: 15px;
+}
+button:hover{
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.1) ;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+button:active{
+    background-color: rgb(222, 150, 174);
+    color: aliceblue;
+    transition:  background-color 0.1s,color 0.1s;
+}
+.h-1{
+    display: inline;
+    font-weight: bold;
+    font-style: solid;
+    
+}
+    
+
+
+
+
+input{
+    
+    font-weight: bold;
+    font-family: "font-weight: bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+    display:flexbox;
+    margin-left: 55px;
+    background-origin: padding-box;
+    border: solid;
+    border-radius: 5px;
+    margin-inline-start: auto;
+    border-color: black;
+    background-color: none;
+
+
+}
+.form-main{
+    border: none;
+    padding: auto;
+    padding-top: 15px;
+    color: blanchedalmond;
+    border-bottom-style:none;
+    width: 55%;
+    height: 50%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+.reg-main{
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color :rgb(51, 60, 77);
+    color: blanchedalmond;
+    border-color: cadetblue;
+    border-bottom-style:dashed ;
+    border-top-style: dashed;
+    width: 55%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px rgba(4, 4, 4, 0.1);
+}
+.ii{
+    mix-blend-mode: color-burn;
+    height: 25px;
+    padding-top: 5px;
+}

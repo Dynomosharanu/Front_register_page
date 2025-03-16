@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynomosoft-Forms</title>
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <link rel="javaScript" href="jstest.js">
+    
+    
+</head>
+<body style="box-shadow: inset; background-color: rgb(227, 171, 227);" > 
+    
+
+       <center> 
+        <h1 style="font-weight: bold;font-size: 50;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="heading"><u>Welcom To DynomoSoft</u></h1></center>
+       <hr style="height: 10;border-color: darkgreen;">
+        <center><h1 class="h-1"><u>DynomoSoft</u></h1></center>
+       <center style="margin-top: 10%;"><div class="reg-main"> Registeration</div></center>
+       <div id="action">
+       <center > <form  action="handleSubmit(event)" class="form-main">
+            <label for="name" class="label">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name" required >
+            <label for="Middle-Name"   class="label">Middle-Name</label>
+            <input type="text" id="Middle-Name" placeholder="Enter Your Middle-Name" required>
+            <label for="lastname"   class="label">last Name</label>
+            <input type="text" id="lastname" placeholder="Enter your Last Name" required>
+            <label for="Email" class="label" >Email</label>
+            <input type="email" id="email" placeholder="sharanu@gmail.com" required>
+            <label  >Gender</label>
+            <label for="Male" id="male"  >Male</label>
+            <input type="radio" id="male"value="male" required>
+            <label for="Female" id="Female">Female</label>
+            <input type="radio" id="Female" value="Female" required>
+            <label for="mobileno." id="mobileno">Mobile NO.:</label>
+            <input type="text" id="mobileno" placeholder="88*******5">
+            <center> <button id="Submit" onclick="handleSubmit(event)">Submit</button><center>
+
+
+        </form></center>
+         </div>
+    </div>
+   <center><u>Follow Us</u> </center>
+   <center><a href=""><img src="instagram.jpeg" alt="instagram" srcset="initial-scale small 200w" class="ii"></a>
+   <center> <label for="instagram" style="display: inline-flex; font-weight: normal;font-style: normal;font-family: none;padding-bottom: 5;">instagram</label></center>
+    </center>
+</body>
+</html>
